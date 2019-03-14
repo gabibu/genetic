@@ -1,0 +1,15 @@
+
+population_size: 200
+max_individual_size: 100
+min_individual_size: 75
+terget_image_path: images/monallisa.jpg
+mutation_probability: 0.2
+#intermediate_best_path: /home/gabib3b/code/datagenrecreateimage/results/test.jpeg
+algo_type: population
+fiteness_type: absolute_difference
+cross_over_type: uniform
+mutator_type: probability
+selection_method: rank
+min_radius: 2
+max_radius_divide: 4
+radius_std_divide: 6
